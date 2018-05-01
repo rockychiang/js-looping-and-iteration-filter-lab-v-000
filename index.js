@@ -3,7 +3,7 @@ function findMatching(array, name) {
 }
 
 function fuzzyMatch(array, initial) {
-  return array.filter(function(n){return n[0] === initial})  
+  return array.filter(function(n){return n[0] === initial[0]})  
 }
 
 function matchName() {
