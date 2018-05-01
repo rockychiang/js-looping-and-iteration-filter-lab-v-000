@@ -7,5 +7,5 @@ function fuzzyMatch(array, initial) {
 }
 
 function matchName(array, name) {
-  return array.filter(function(n){return n === name})
+  return array.filter(function(n){return n.name === name})
 }
