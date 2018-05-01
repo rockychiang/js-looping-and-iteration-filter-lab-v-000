@@ -1,5 +1,5 @@
 function findMatching(array, name) {
-  return array.filter(f(n) {n === name})
+  return array.filter(function(n) {n === name})
 }
 
 function fuzzyMatch() {
